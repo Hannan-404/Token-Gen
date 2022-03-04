@@ -21,7 +21,7 @@ pu = json.loads(up)
 if "session_key" in up:
     print
     os.system('clear')
-    print _banner_
+    print (_banner_)
     print 'YOUR USERNAME :' + pu['identifier']
     print 'YOUR ACCESS TOKEN:' + pu["access_token"]
     open(user+'-token.txt', 'a').write(pu["access_token"])
