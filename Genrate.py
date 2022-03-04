@@ -22,10 +22,10 @@ if "session_key" in up:
     print
     os.system('clear')
     print (_banner_)
-    print 'YOUR USERNAME :' + pu['identifier']
-    print 'YOUR ACCESS TOKEN:' + pu["access_token"]
+    print ('YOUR USERNAME :' + pu['identifier'])
+    print ('YOUR ACCESS TOKEN:' + pu["access_token"])
     open(user+'-token.txt', 'a').write(pu["access_token"])
     print
     print 'File saved💖 = '+user+'-token.txt'
 else:
-    print '🙂💖🙄ENTER CORRECT PASS/USER'
+    print ('🙂💖🙄ENTER CORRECT PASS/USER')
